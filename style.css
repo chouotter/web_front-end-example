@@ -50,7 +50,7 @@ body {
     /* 撐開內邊距 */
     padding: 3%;
     /* 陰影 */
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 1px rgba(220, 78, 154, 0.2);
     /* 外框 */
     border: 1px solid #51515130;
     /* 變形, 幅度為 .3rem (圓角矩形) */
@@ -64,7 +64,30 @@ body {
 /* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
 .wrapper .btn:hover {
     /* 外框 */
-    border: 1px solid #51515150;
+    border: 1px solid #ffe32a50;
     /* 陰影 */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+/* 第一個按鈕 */
+.wrapper .btn1 {
+    background-color: red;
+    color: white;
+}
+
+/* 第二個按鈕 */
+.wrapper .btn2 {
+    background-color: rgb(213, 177, 203);
+    color: white;
+}
+
+/* 第三個按鈕 */
+.wrapper .btn3 {
+    background-color: green;
+    color: white;
+}
+
+/* 第四個按鈕 */
+.wrapper .btn4 {
+    background-color: yellow;
+    color: black;
 }
